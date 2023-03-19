@@ -1,7 +1,6 @@
 SparkFun Qwiic Scale NAU7802 Library
+changed to include external reference option
 ===========================================================
-
- [![SparkFun Qwiic Scale - NAU7802 (SEN-15242)](https://cdn.sparkfun.com/assets/parts/1/3/7/0/0/Scale_Converted_to_Digital_-_SparkFun_Qwiic_Scale.jpg)](https://www.sparkfun.com/products/15242) 
 
 [*SparkFun Qwiic Scale - NAU7802 (SEN-15242)*](https://www.sparkfun.com/products/15242)
 
