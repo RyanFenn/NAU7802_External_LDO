@@ -121,6 +121,7 @@ typedef enum
   NAU7802_LDO_3V9 = 0b010,
   NAU7802_LDO_4V2 = 0b001,
   NAU7802_LDO_4V5 = 0b000,
+  NAU7802_LDO_EXTERNAL,
 } NAU7802_LDO_Values;
 
 //Allowed gains
