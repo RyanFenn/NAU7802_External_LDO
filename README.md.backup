@@ -1,7 +1,6 @@
 SparkFun Qwiic Scale NAU7802 Library
 changed to include external reference option
 ===========================================================
-Use NAU7802_LDO_EXTERNAL for setting ldoValue. Otherwise library is the same as sparkfun lib.
 
 [*SparkFun Qwiic Scale - NAU7802 (SEN-15242)*](https://www.sparkfun.com/products/15242)
 
