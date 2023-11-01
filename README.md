@@ -3,6 +3,7 @@ NAU7802_External_LDO
 NOTES:
 * This fork originates from SparkFun's NAU7802 library (https://github.com/sparkfun/SparkFun_Qwiic_Scale_NAU7802_Arduino_Library). From Sparkfun's libary, a fork was created by joesphan to add code so that NAU7802_LDO_EXTERNAL could be used for setting the LDO state. joesphan's libary was then forked to create the current library.
 * When the begin() method is called, the LDO value will be set to external now (instead of 3.3V).
+* If using an STM32 with stm32duino core, you might need to instantiate a TwoWire object (E.g. ```TwoWire Wire2(PB11, PB10);``` ) and also make sure to pass this object into the begin() method in order to get I2C working.
 
 CHANGELOG:
 * joesphan -> Code added so that the LDO can be set to NAU7802_LDO_EXTERNAL.
