@@ -1,7 +1,14 @@
-SparkFun Qwiic Scale NAU7802 Library
-changed to include external reference option
+NAU7802_External_LDO
 ===========================================================
-Use NAU7802_LDO_EXTERNAL for setting ldoValue. Otherwise library is the same as sparkfun lib.
+NOTES:
+* This fork originates from SparkFun's NAU7802 library (https://github.com/sparkfun/SparkFun_Qwiic_Scale_NAU7802_Arduino_Library). From Sparkfun's libary, a fork was created by joesphan to add code so that NAU7802_LDO_EXTERNAL could be used for setting the LDO state. joesphan's libary was then forked to create the current library.
+* When the begin() method is called, the LDO value will be set to external now (instead of 3.3V).
+
+CHANGELOG:
+* joesphan -> Code added so that the LDO can be set to NAU7802_LDO_EXTERNAL.
+* RyanFenn -> Changed .h and .cpp file names.
+* RyanFenn -> Code added so that LDO is set to NAU7802_LDO_EXTERNAL when the begin() method is called.
+
 
 [*SparkFun Qwiic Scale - NAU7802 (SEN-15242)*](https://www.sparkfun.com/products/15242)
 
