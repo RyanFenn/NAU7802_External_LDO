@@ -52,7 +52,8 @@ bool NAU7802::begin(TwoWire &wirePort, bool initialize)
 
     result &= powerUp(); //Power on analog and digital sections of the scale
 
-    result &= setLDO(NAU7802_LDO_3V3); //Set LDO to 3.3V
+    // result &= setLDO(NAU7802_LDO_3V3); //Set LDO to 3.3V
+    result &= setLDO(NAU7802_LDO_EXTERNAL); //Set LDO to external
 
     result &= setGain(NAU7802_GAIN_128); //Set gain to 128
 
