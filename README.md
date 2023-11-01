@@ -6,7 +6,7 @@ NOTES:
 
 CHANGELOG:
 * joesphan -> Code added so that the LDO can be set to NAU7802_LDO_EXTERNAL.
-* RyanFenn -> Changed .h and .cpp file names and adjusted #include in .cpp file to match.
+* RyanFenn -> Changed .h and .cpp filenames and adjusted #include in .cpp file to match.
 * RyanFenn -> Code added so that LDO is set to NAU7802_LDO_EXTERNAL when the begin() method is called.
 
 
